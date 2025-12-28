@@ -1,0 +1,19 @@
+name: ServerPlayTime
+version: '1.0'
+main: com.JadGameDev27.serverPlayTime.Main
+api-version: '1.21'
+
+commands:
+  serverplaytime:
+    description: Displays Server Time in Days.
+    usage: /<command>
+    permission: serverPlayTime.serverPlayTime
+  use24hrformat:
+    description: Change or view settings for Use 24-Hour Format
+    usage: /<command> <true/false>
+    permission: serverPlayTime.serverPlayTime
+
+permissions:
+  serverPlayTime.serverPlayTime:
+    description: Allows Usage of All ServerPlayTime Commands
+    default: true
