@@ -6,4 +6,5 @@ Usage :
 - `/use24hrformat <true/false>` Set 24hr/12hr format (default is false).
 
 `/serverplaytime`
+
 ![/serverplaytime](./2025-12-31_01.14.12.png)
